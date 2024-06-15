@@ -175,10 +175,11 @@ def main_creating():
             'setOptions',
             {'options': {'antiCaptchaApiKey': anty_api_key}}
         )
-
-        driver = create_account(driver)
+        try:
+            driver = create_account(driver)
+        except:
+            pass
         driver.quit()
-
 
 
 
