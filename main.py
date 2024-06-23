@@ -1,4 +1,4 @@
-from create_accounts import main_creating
+from create_account import start
 
 if __name__ == '__main__':
-    main_creating()
+    start()
